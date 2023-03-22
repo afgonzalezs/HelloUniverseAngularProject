@@ -7,12 +7,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class InputsComponent implements OnInit {
 
-  public nombre: String;
-  public apellido: String;
+  public Nombre: String;
+  public Apellido: String;
   
   constructor() { 
-    this.apellido = "";
-    this.nombre = "";
+    this.Apellido = "";
+    this.Nombre = "";
   }
 
   ngOnInit(): void {
